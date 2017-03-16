@@ -3,10 +3,10 @@
 <head>
 	<title>Let the game begin!</title>
 	<script>
-	var name = '<?php echo $_GET['meow']; ?>';
+	var name = '<?php echo $_GET['valley']; ?>';
 	</script>
 </head>
 <body>
-<?php echo "This is the fifth exercise on XSS, enjoy it"?>
+<?php echo "Go to the valley!"?>
 </body>
 </html>

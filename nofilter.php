@@ -4,8 +4,8 @@
 	<title>Let the game begin!</title>
 </head>
 <body>
-<?php echo $_GET['meow']; 
+<?php echo $_GET['valley']; 
 //no filter exists
-echo "This is the first and the most basic exercise on XSS, enjoy it"?>
+echo "Go to the valley!"?>
 </body>
 </html>

@@ -4,7 +4,7 @@
 	<title>Let the game begin!</title>
 </head>
 <body>
-You are the special boy in the valley!
+You are the special one in the valley!
 <?php
 $str = $_GET['valley'];
 echo htmlspecialchars($str);

@@ -10,8 +10,3 @@ You are the one in the valley!
 </body>
 </html>
 
-
-
-<?php
-//<a href= "http://www.hackertyper.com">Click dude!</a>
-?>

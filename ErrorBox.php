@@ -6,7 +6,7 @@
 <body>
 This is the second exercise on XSS, enjoy it!
 
-<?php echo $_GET['valley']; /*only one character is filtered*/  //html attribute yaz
+<?php echo $_GET['valley']; /*only one character is filtered*/  
 if (strpos($_GET['valley'], '<') !== false) { 
 	echo "<script>alert('Step back!')</script>";
 } 

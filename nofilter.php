@@ -9,7 +9,4 @@
 echo "Go to the valley!"?>
 </body>
 </html>
-<<<<<<< Updated upstream
-=======
 
->>>>>>> Stashed changes

@@ -6,6 +6,7 @@
 <body>
 
 <?php
+//Reflected XSS Example
 $str = $_GET['valley'];
 $newstr = filter_var($str, FILTER_SANITIZE_SPECIAL_CHARS);
 echo $newstr;

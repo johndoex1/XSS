@@ -1,4 +1,5 @@
 <?php
+//Reflected XSS Example
 $param = $_GET['valley'];
 $pattern = '/<>/';
 $replacement = '';

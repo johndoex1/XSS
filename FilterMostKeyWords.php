@@ -1,4 +1,5 @@
 <?php
+//Reflected XSS Example
 $param = $_GET['valley'];
 $forbidden = ['script', 'prompt'];
 $last = str_replace($forbidden, '', $param);

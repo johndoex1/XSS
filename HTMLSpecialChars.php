@@ -6,6 +6,7 @@
 <body>
 You are the special one in the valley!
 <?php
+//Reflected XSS Example
 $str = $_GET['valley'];
 echo htmlspecialchars($str);
 //& (ampersand) becomes &amp;

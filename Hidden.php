@@ -2,6 +2,7 @@
 <title>Let the game begin!</title>
 <body>
 <?php
+//Reflected XSS Example
 $find=$_GET['find'];
 $block=array(alert,prompt,script,img,textarea,plaintext,svg,iframe);
 $last= str_replace($block, '', $find) ;

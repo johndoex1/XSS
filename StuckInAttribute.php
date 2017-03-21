@@ -1,7 +1,7 @@
 <html>
 <title>Let the game begin!</title>
 <body>
-
+<!--//Reflected XSS Example -->
 
 You are the one in the valley!
 

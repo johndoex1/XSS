@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!--//Reflected XSS Example -->
 <html>
 <head>
 	<title>Let the game begin!</title>
@@ -7,6 +8,6 @@
 	</script>
 </head>
 <body>
-<?php echo "Go to the valley!"?>
+<?php echo "Go to the valley!"?> 
 </body>
 </html>

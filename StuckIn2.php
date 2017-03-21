@@ -3,6 +3,7 @@
 <body>
 
 <?php
+  //Reflected XSS Example
 $param = $_GET['valley'];
 $forbidden = ['script', 'alert'];
 $last = str_replace($forbidden, '', $param);

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!--//Reflected XSS Example -->
+<!--Reflected XSS Example -->
 <html>
 <head>
 	<title>Let the game begin!</title>
